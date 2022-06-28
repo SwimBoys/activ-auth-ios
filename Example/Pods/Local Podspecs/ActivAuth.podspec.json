@@ -1,0 +1,31 @@
+{
+  "name": "ActivAuth",
+  "version": "0.1.0",
+  "summary": "A short description of ActivAuth.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Martin Kuvandzhiev/ActivAuth",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Martin Kuvandzhiev": "martinkuvandzhiev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Martin Kuvandzhiev/ActivAuth.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Sources/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "Security"
+  ],
+  "dependencies": {
+    "Alamofire": [
+      "~>4.9.1"
+    ]
+  }
+}

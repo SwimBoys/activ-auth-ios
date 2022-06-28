@@ -1,0 +1,19 @@
+use_frameworks!
+
+target 'ActivAuth_Example' do
+  pod 'ActivAuth', :path => '../'
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  pod 'FBSDKCoreKit'
+  pod 'FBSDKLoginKit'
+  pod 'GoogleSignIn'
+
+
+
+
+  target 'ActivAuth_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
